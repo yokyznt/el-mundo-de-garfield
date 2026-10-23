@@ -26,7 +26,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    
 }
 
 body {
@@ -129,7 +129,7 @@ h1 span {
     transition: background 0.2s, border-color 0.2s;
 }
 
-.menu a:hover, .menu a:focus-visible {
+.menu a:hover, .menu a:focus-visible, .menu a[aria-current="page"] {
     background: var(--naranja);
     border-color: var(--cafe);
     color: #fff;
@@ -358,4 +358,73 @@ dialog form button {
 }
 .pie a {
     color: var(--amarillo);
+}
+
+.cabecera-titulo {
+    text-decoration: none;
+}
+
+.accesos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.acceso {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--cafe);
+    text-decoration: none;
+    background: var(--amarillo);
+    border: var(--borde);
+    border-radius: 16px;
+    box-shadow: var(--sombra);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.acceso svg {
+    flex: none;
+    width: 2rem;
+    height: 2rem;
+    fill: var(--naranja-oscuro);
+}
+
+.acceso:hover, .acceso:focus-visible {
+    background: var(--naranja);
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.pasos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.pasos a {
+    color: var(--cafe);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    background: var(--amarillo);
+    border: var(--borde);
+    border-radius: 999px;
+    box-shadow: var(--sombra);
+}
+
+.pasos a:last-child {
+    margin-left: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .acceso {
+        transition: none;
+    }
 }
