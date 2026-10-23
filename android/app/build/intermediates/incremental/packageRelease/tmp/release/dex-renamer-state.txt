@@ -1,0 +1,4 @@
+#Fri Oct 23 17:44:18 CST 2026
+base.0=C\:\\Users\\yokis\\Desktop\\hw\\el-mundo-de-garfield\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

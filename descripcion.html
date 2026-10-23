@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f77f00">
+    <meta name="description" content="El Mundo de Garfield: descripción, biografía, personalidad, voz, alimentación y galería del gato más flojo del mundo.">
+    <title>Descripción · El Mundo de Garfield</title>
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="huella" viewBox="0 0 64 64"><ellipse cx="32" cy="41" rx="12" ry="10"/><ellipse cx="17" cy="28" rx="5" ry="6.5"/><ellipse cx="26" cy="19" rx="5" ry="7"/><ellipse cx="38" cy="19" rx="5" ry="7"/><ellipse cx="47" cy="28" rx="5" ry="6.5"/></symbol>
+</svg>
+
+<header class="cabecera">
+    <img class="cabecera-cara" src="img/garfield-cara.jpg" alt="Cara de Garfield" width="300" height="300">
+    <a class="cabecera-titulo" href="index.html"><h1><span>El mundo de</span> Garfield</h1></a>
+    <div class="huellas" aria-hidden="true">
+        <svg><use href="#huella"/></svg><svg><use href="#huella"/></svg>
+    </div>
+</header>
+
+<nav class="menu" aria-label="Secciones">
+    <a href="descripcion.html" aria-current="page">Descripción</a>
+    <a href="biografia.html">Biografía</a>
+    <a href="personalidad.html">Personalidad</a>
+    <a href="hablar.html">El hablar del personaje</a>
+    <a href="alimentacion.html">Alimentación</a>
+    <a href="galeria.html">Galería</a>
+</nav>
+
+<main class="contenido">
+
+    <section>
+        <h2>Descripción</h2>
+
+        <article class="bloque">
+            <div class="texto">
+                <h3>¿Quién es Garfield?</h3>
+                <p>Garfield es un famoso gato anaranjado creado por Jim Davis en 1978. Conocido por su personalidad perezosa, su amor obsesivo por la lasaña y su odio por los lunes, se ha convertido en uno de los personajes de cómic y caricaturas más queridos a nivel mundial.</p>
+            </div>
+            <img src="img/garfield-acostado.jpg" alt="Garfield acostado con cara de flojera" width="474" height="282" loading="lazy">
+        </article>
+
+        <article class="bloque invertido">
+            <div class="texto">
+                <h3>Características físicas</h3>
+                <p>Garfield es un gato de pelaje anaranjado intenso con rayas negras en la espalda y la cola. Su cuerpo es redondeado y regordete, lo que refuerza su imagen de perezoso y glotón. Sus patas son cortas pero firmes, y su vientre prominente es uno de sus rasgos más representativos.</p>
+            </div>
+            <img src="img/garfield-lapiz.jpg" alt="Garfield de pie sosteniendo un lápiz" width="662" height="900" loading="lazy">
+        </article>
+
+        <article class="bloque">
+            <div class="texto">
+                <h3>Rostro y expresiones</h3>
+                <p>El rostro de Garfield es redondeado, con grandes ojos semicerrados que casi siempre denotan desdén, sarcasmo o flojera. Tiene una pequeña nariz rosa y una sonrisa traviesa característica. Sus orejas son puntiagudas y sus cejas arqueadas le dan una expresión irreverente y graciosa.</p>
+            </div>
+            <img src="img/garfield-cara.jpg" alt="Cara de Garfield con los ojos muy abiertos" width="300" height="300" loading="lazy">
+        </article>
+    </section>
+
+    <nav class="pasos" aria-label="Navegación entre páginas"><a href="index.html">← Inicio</a><a href="biografia.html">Biografía →</a></nav>
+
+</main>
+
+<footer class="pie">
+    <svg aria-hidden="true"><use href="#huella"/></svg>
+    <p>El Mundo de Garfield · Hecho por Hiromi · <a href="practicas/index.html">Prácticas</a></p>
+    <svg aria-hidden="true"><use href="#huella"/></svg>
+</footer>
+
+<script>document.querySelector('.menu [aria-current]').scrollIntoView({inline: 'center', block: 'nearest'});</script>
+</body>
+</html>

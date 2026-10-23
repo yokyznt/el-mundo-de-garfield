@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f77f00">
+    <meta name="description" content="El Mundo de Garfield: descripción, biografía, personalidad, voz, alimentación y galería del gato más flojo del mundo.">
+    <title>Personalidad · El Mundo de Garfield</title>
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="huella" viewBox="0 0 64 64"><ellipse cx="32" cy="41" rx="12" ry="10"/><ellipse cx="17" cy="28" rx="5" ry="6.5"/><ellipse cx="26" cy="19" rx="5" ry="7"/><ellipse cx="38" cy="19" rx="5" ry="7"/><ellipse cx="47" cy="28" rx="5" ry="6.5"/></symbol>
+</svg>
+
+<header class="cabecera">
+    <img class="cabecera-cara" src="img/garfield-cara.jpg" alt="Cara de Garfield" width="300" height="300">
+    <a class="cabecera-titulo" href="index.html"><h1><span>El mundo de</span> Garfield</h1></a>
+    <div class="huellas" aria-hidden="true">
+        <svg><use href="#huella"/></svg><svg><use href="#huella"/></svg>
+    </div>
+</header>
+
+<nav class="menu" aria-label="Secciones">
+    <a href="descripcion.html">Descripción</a>
+    <a href="biografia.html">Biografía</a>
+    <a href="personalidad.html" aria-current="page">Personalidad</a>
+    <a href="hablar.html">El hablar del personaje</a>
+    <a href="alimentacion.html">Alimentación</a>
+    <a href="galeria.html">Galería</a>
+</nav>
+
+<main class="contenido">
+
+    <section>
+        <h2>Personalidad</h2>
+        <ul class="rasgos">
+            <li><strong>Perezoso</strong>Dormir es su actividad favorita.</li>
+            <li><strong>Sarcástico</strong>Siempre tiene un comentario burlón.</li>
+            <li><strong>Glotón</strong>Nunca dice que no a la comida.</li>
+            <li><strong>Divertido</strong>Sus ocurrencias hacen reír a todos.</li>
+        </ul>
+    </section>
+
+    <nav class="pasos" aria-label="Navegación entre páginas"><a href="biografia.html">← Biografía</a><a href="hablar.html">El hablar del personaje →</a></nav>
+
+</main>
+
+<footer class="pie">
+    <svg aria-hidden="true"><use href="#huella"/></svg>
+    <p>El Mundo de Garfield · Hecho por Hiromi · <a href="practicas/index.html">Prácticas</a></p>
+    <svg aria-hidden="true"><use href="#huella"/></svg>
+</footer>
+
+<script>document.querySelector('.menu [aria-current]').scrollIntoView({inline: 'center', block: 'nearest'});</script>
+</body>
+</html>
