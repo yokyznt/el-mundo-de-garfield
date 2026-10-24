@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">El Mundo de Garfield</string>
+    <string name="title_activity_main">El Mundo de Garfield</string>
+    <string name="package_name">mx.mundogarfield.app</string>
+    <string name="custom_url_scheme">mx.mundogarfield.app</string>
+</resources>
